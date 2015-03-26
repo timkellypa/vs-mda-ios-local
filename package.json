@@ -1,0 +1,29 @@
+{
+  "name": "vs-mda-ios-local",
+  "version": "0.0.0",
+  "description": "A node module for building an iOS package from a Visual Studio project directory stored locally on a Mac",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test-node && npm run test-browser"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timkellypa/vs-mda-ios-local"
+  },
+  "keywords": [
+    "Visual",
+    "Studio",
+    "Project",
+    "Cordova",
+    "Run",
+    "Build"
+  ],
+  "author": "Tim Kelly <timkellypa@gmail.com> (http://www.URL.com/)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/timkellypa/vs-mda-ios-local/issues"
+  },
+  "dependencies": {
+    "vs-mda-remote": "~0.2.7"
+  }
+}
